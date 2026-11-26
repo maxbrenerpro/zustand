@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   test_multiple_builds:
-    runs-on: ubuntu-latest
+    runs-on: play-2vcpu
     strategy:
       fail-fast: false
       matrix:
